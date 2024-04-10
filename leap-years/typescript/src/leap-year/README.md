@@ -1,3 +1,24 @@
+# How to
+## Setup
+Install packages
+```
+npm install
+```
+## Tooling
+Run test
+```
+npm run test
+```
+Eslint
+```
+npm run lint
+```
+
+Prettier
+```
+npm run prettier
+```
+
 # Problem Description
 Prior to 1582, the Julian Calendar was in wide use and defined leap years as every year divisible by 4. However, it was found in the late 16th century that the calendar year had drifted from the solar year by approximately 10 days. The Gregorian Calendar was defined in order to thin out the number of leap years and to more closely align the calendar year with the solar year. It was adopted in Papal countries on October 15, 1582, skipping 10 days from the Julian Calendar date. Protestant countries adopted the Gregorian Calendar after some time.
 
