@@ -12,5 +12,5 @@ pytest = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.8"
-python_full_version = "3.8.11"
+python_version = "3.9"
+python_full_version = "3.9"
