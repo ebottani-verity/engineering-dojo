@@ -17,6 +17,7 @@
     "@swc/cli": "^0.3.12",
     "@swc/core": "^1.4.13",
     "@types/jest": "^29.5.12",
+    "@types/jsdom": "^21.1.7",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "eslint": "^8.57.0",
     "eslint-config-standard-with-typescript": "^43.0.1",
@@ -30,5 +31,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.4",
     "typescript-eslint": "^7.6.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1"
   }
 }

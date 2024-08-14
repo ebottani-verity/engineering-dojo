@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageRenderer message_renderer 1`] = `"<h1>header</h1><b>body</b><i>footer</i>"`;
