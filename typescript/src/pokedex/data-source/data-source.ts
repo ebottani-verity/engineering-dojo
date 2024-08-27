@@ -1,5 +1,4 @@
-// dataSource.ts
-import { Pokemon } from "../pokedex"; // Import the Pokemon interface from the Pokedex module
+import { Pokemon } from "../pokemon.model";
 
 export function createDataSource() {
   // Private array to store the list of Pokemon
