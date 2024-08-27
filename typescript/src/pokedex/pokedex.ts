@@ -1,4 +1,6 @@
 // Initialize an empty array to store the Pokemon list
+import { Pokemon } from "./pokemon.model";
+
 let pokemonList: Pokemon[] = [];
 
 // Function to add a new Pokemon to the Pokedex

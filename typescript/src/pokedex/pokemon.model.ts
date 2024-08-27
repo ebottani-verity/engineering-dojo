@@ -1,5 +1,5 @@
 // Pokemon interface representing the structure of a Pokemon object
-interface Pokemon {
+export interface Pokemon {
   id: number;
   name: string;
   type: string[];
