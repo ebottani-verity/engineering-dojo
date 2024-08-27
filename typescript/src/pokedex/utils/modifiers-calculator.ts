@@ -1,4 +1,4 @@
-import { Modifiers, Pokemon } from "./pokemon.model";
+import { Modifiers, Pokemon } from "../pokemon.model";
 
 export function createModifierCalculator() {
   function calculateModifiers(pokemon: Pokemon): Modifiers {

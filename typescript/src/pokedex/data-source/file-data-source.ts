@@ -1,6 +1,6 @@
 // fileDataSource.ts
 import { promises as fs } from "fs";
-import { Pokemon } from "./pokemon.model";
+import { Pokemon } from "../pokemon.model";
 
 const isBroken: boolean = false;
 

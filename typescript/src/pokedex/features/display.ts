@@ -1,4 +1,4 @@
-import { ModifiedPokemon } from "./pokemon.model";
+import { ModifiedPokemon } from "../pokemon.model";
 
 export function createDisplay() {
   function logAddPokemon(pokemon: ModifiedPokemon): void {
