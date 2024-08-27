@@ -35,3 +35,41 @@ Discuss and define test cases before writing any code. Ensure that each test is 
 
 Try to develop at two test that maximises the first and the second point. Reflect on how you can make sure to maximise the last point in each of these tests. 
 Hint: What is your unit?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PART 2
+Now switch your data source to use the file-data-source
+# PART 3 
+Open the file data source and turn the switch on, what happens to your tests? 
+
+
+
+
+
+
+
+
+
+
+
+
