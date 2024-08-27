@@ -5,3 +5,13 @@ export interface Pokemon {
   type: string[];
   level: number;
 }
+
+export type Modifiers = {
+  attackModifier: number;
+  defenseModifier: number;
+  speedModifier: number;
+};
+
+export interface ModifiedPokemon extends Pokemon {
+  modifiers: Modifiers;
+}
