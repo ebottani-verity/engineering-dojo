@@ -21,31 +21,55 @@
 - Feature 4: List all Pokémon in the Pokedex.
 - Feature 5: Search for Pokémon by type or name.
 
+# Acceptance Criteria
+- Leverage the provided data-source to persist your pokemons
+- A pokemon can be visualised only when modifiers have been applied
+- Every action on the system needs to be displayed using the display component 
+
 ## Define Unit Tests Together:
 Discuss and define test cases before writing any code. Ensure that each test is designed to:
 - Protect against regressions: For example, after adding a Pokémon to the Pokedex, ensure that it can be retrieved and that removing it actually deletes the correct entry.
 - Resist refactoring: Avoid tying tests to specific implementation details (e.g., the internal storage structure) and instead focus on the behavior (e.g., the Pokedex should always return accurate Pokémon details regardless of how they’re stored internally).
 - Provide fast feedback: Keep the tests simple and efficient, ensuring they run quickly even as the Pokedex grows with more Pokémon.
 - Be maintainable: Write tests that are clear and concise, using descriptive names and avoiding duplication, so they are easy to update when the Pokedex features evolve.
-Pair Programming: Implement Features with Tests:
 
-Emphasize constant communication, with the developer writing tests explaining the rationale behind each test case, while the other ensures the code meets these expectations.
+Try to develop at two test that maximises the first and the second point. Reflect on how you can make sure to maximise the last point in each of these tests. 
+Hint: What is your unit?
 
-## Refactor the Code:
-Introduce refactorings to the codebase, such as changing how Pokémon are stored (e.g., from a list to a dictionary/map) or restructuring the Pokedex class.
-Ensure that tests still pass without modification, reinforcing the principle of Resistance to refactoring.
-## Expand the Test Suite:
-After implementing and testing all features, introduce edge cases or additional scenarios (e.g., handling duplicate Pokémon names, searching for non-existent Pokémon).
-Ensure these tests are added in a way that maintains the speed and maintainability of the test suite.
-## Review and Reflect:
-Conduct a review session where each pair discusses:
-- How well their tests protected against regressions.
-- Whether their tests survived code refactoring without changes.
-- If the tests provided fast feedback during development.
-- How maintainable the tests are (e.g., were they easy to extend or modify?).
 
-Consider what improvements could be made in the future to better adhere to the four pillars.
-# Outcome:
-By the end of the exercise, participants will have a deeper understanding of how to design and implement unit tests that are robust, reliable, and maintainable, specifically in the context of a Pokedex. This exercise will help solidify the importance of test-driven development (TDD) and the impact of good unit testing practices on code quality and development efficiency.
 
-This Pokedex-themed exercise is a fun and engaging way to reinforce key testing concepts while working on something that’s both familiar and enjoyable for many developers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PART 2
+Now switch your data source to use the file-data-source
+# PART 3 
+Open the file data source and turn the switch on, what happens to your tests? 
+
+
+
+
+
+
+
+
+
+
+
+
