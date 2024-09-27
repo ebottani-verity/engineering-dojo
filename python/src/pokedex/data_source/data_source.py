@@ -23,7 +23,7 @@ class PokemonDataSource:
             raise ValueError(f"Pokemon with ID {id} does not exist in the data source.")
 
     # Retrieve details of a specific Pokemon by ID
-    def get_pokemon_details(self, id: int) -> Optional[Pokemon]:
+    def get_pokemon(self, id: int) -> Optional[Pokemon]:
         return next((p for p in self._pokemon_list if p.id == id), None)
 
     # List all Pokemon in the data source

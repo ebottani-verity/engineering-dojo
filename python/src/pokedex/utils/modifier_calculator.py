@@ -9,9 +9,9 @@ class Modifiers:
 class ModifierCalculator:
     @staticmethod
     def calculate(pokemon: Pokemon) -> Modifiers:
-        attack_modifier = 1.0
-        defense_modifier = 1.0
-        speed_modifier = 1.0
+        attack_modifier = 1
+        defense_modifier = 1
+        speed_modifier = 1
 
         # Example logic for buffs and nerfs based on type and level
         # Buffs: Increase stats if level is above 20
