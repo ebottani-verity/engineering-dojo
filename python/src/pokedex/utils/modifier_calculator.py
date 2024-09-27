@@ -5,7 +5,7 @@ from src.pokedex.pokemon import Pokemon
 
 class ModifierCalculator:
     @staticmethod
-    def calculate_modifiers(pokemon: Pokemon) -> Dict[str, float]:
+    def calculate(pokemon: Pokemon) -> Dict[str, float]:
         attack_modifier = 1.0
         defense_modifier = 1.0
         speed_modifier = 1.0
