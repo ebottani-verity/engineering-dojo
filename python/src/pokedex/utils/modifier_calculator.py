@@ -1,11 +1,14 @@
-from typing import Dict, List
-
 from src.pokedex.pokemon import Pokemon
 
+class Modifiers:
+    def __init__(self, attack, defense, speed):
+        self.attack = attack
+        self.defense = defense
+        self.speed = speed
 
 class ModifierCalculator:
     @staticmethod
-    def calculate(pokemon: Pokemon) -> Dict[str, float]:
+    def calculate(pokemon: Pokemon) -> Modifiers:
         attack_modifier = 1.0
         defense_modifier = 1.0
         speed_modifier = 1.0
@@ -37,9 +40,5 @@ class ModifierCalculator:
         if "Grass" in pokemon.type:
             defense_modifier -= 0.1  # -10% defense for Grass types
 
-        return {
-            "attackModifier": attack_modifier,
-            "defenseModifier": defense_modifier,
-            "speedModifier": speed_modifier,
-        }
+        return Modifiers(attack_modifier, defense_modifier, speed_modifier)
 

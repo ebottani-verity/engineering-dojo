@@ -1,4 +1,5 @@
-from src.pokedex.pokemon import ModifiedPokemon, Pokemon
+from src.pokedex.modified_pokemon import ModifiedPokemon
+from src.pokedex.pokemon import Pokemon
 
 
 class PokemonDisplay:
@@ -23,9 +24,9 @@ class PokemonDisplay:
             self.log_modifiers(pokemon)
 
     def log_modifiers(self, pokemon: ModifiedPokemon) -> None:
-        attack_modifier = pokemon.modifiers.get("attackModifier", 1)
-        defense_modifier = pokemon.modifiers.get("defenseModifier", 1)
-        speed_modifier = pokemon.modifiers.get("speedModifier", 1)
+        attack_modifier = pokemon.modifiers.attack
+        defense_modifier = pokemon.modifiers.defense
+        speed_modifier = pokemon.modifiers.speed
         print(
             f"Modifiers for {pokemon.name}: "
             f"Attack: {attack_modifier:.2f}, "
